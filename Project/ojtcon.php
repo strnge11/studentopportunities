@@ -17,7 +17,7 @@
 	$supno = $_POST['supno']; 
 
 	//Database connection
-	$conn = new mysqli('localhost', 'root', '', 'ojt');
+	$conn = new mysqli('localhost', 'pdcazambdb', 'T2kWPWrwgN', 'pdcazamdb');
 	if($conn->connect_error){
 		die('Connection Failed: ' .$conn->connect_error);
 	}else{
